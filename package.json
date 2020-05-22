@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "dev": "dumi dev --port=8030",
+    "build": "dumi build",
+    "deploy": "bash ./deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,8 @@
   "homepage": "https://github.com/weisuoke/awesome-react#readme",
   "dependencies": {
     "vuepress": "^1.4.1"
+  },
+  "devDependencies": {
+    "dumi": "^1.0.26"
   }
 }
