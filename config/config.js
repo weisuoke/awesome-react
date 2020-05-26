@@ -1,17 +1,8 @@
 export default {
   mode: 'site',
   title: 'Awesome react',
-  menus: {
-    // '/ui': [
-    //   {
-    //     title: 'UI组件',
-    //     path: '/ui',
-    //     children: [
-    //       'ui/index.md',
-    //       'ui/test.md'
-    //     ]
-    //   }
-    // ]
+  resolve: {
+    previewLangs: []
   },
   navs: [
     {

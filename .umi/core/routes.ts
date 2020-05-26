@@ -5,7 +5,7 @@ const routes = [
   {
     "path": "/",
     "component": (props) => require('react').createElement(require('/Users/pingjing/weisuoke/doc/awesome-react/node_modules/@umijs/preset-dumi/lib/themes/default/layout.js').default, {
-      ...{"menus":{"*":{"*":[{"path":"/","title":"Awesome react","meta":{}}],"/basic":[{"path":"/basic","title":"知识点","meta":{}}],"/state-manage":[{"path":"/state-manage","title":"状态管理","meta":{}}],"/ui":[{"path":"/ui","title":"UI","meta":{}}]}},"locales":[],"navs":{"*":[{"title":"知识点","path":"/basic"},{"title":"UI","path":"/ui"},{"title":"状态管理","path":"/state-manage"}]},"title":"Awesome react","mode":"site","repoUrl":"https://github.com/weisuoke/awesome-react"},
+      ...{"menus":{"*":{"*":[{"path":"/","title":"Awesome react","meta":{}}],"/basic":[{"path":"/basic","title":"知识点","meta":{}},{"path":"/basic/react-children-map","title":"React.Children.map","meta":{}}],"/state-manage":[{"path":"/state-manage","title":"状态管理","meta":{}}],"/ui":[{"path":"/ui","title":"UI","meta":{}}]}},"locales":[],"navs":{"*":[{"title":"知识点","path":"/basic"},{"title":"UI","path":"/ui"},{"title":"状态管理","path":"/state-manage"}]},"title":"Awesome react","mode":"site","repoUrl":"https://github.com/weisuoke/awesome-react"},
       ...props,
     }),
     "routes": [
@@ -15,7 +15,7 @@ const routes = [
         "exact": true,
         "meta": {
           "filePath": "docs/Readme.md",
-          "updatedTime": 1588932202000,
+          "updatedTime": 1590456099000,
           "slugs": [
             {
               "depth": 1,
@@ -38,7 +38,7 @@ const routes = [
         "exact": true,
         "meta": {
           "filePath": "docs/basic/Readme.md",
-          "updatedTime": null,
+          "updatedTime": 1590456099000,
           "slugs": [
             {
               "depth": 1,
@@ -63,6 +63,33 @@ const routes = [
           }
         },
         "title": "知识点"
+      },
+      {
+        "path": "/basic/react-children-map",
+        "component": require('/Users/pingjing/weisuoke/doc/awesome-react/docs/basic/react-children-map.md').default,
+        "exact": true,
+        "meta": {
+          "filePath": "docs/basic/react-children-map.md",
+          "updatedTime": null,
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "React.Children.map",
+              "heading": "reactchildrenmap"
+            },
+            {
+              "depth": 2,
+              "value": "遍历子元素",
+              "heading": "遍历子元素"
+            }
+          ],
+          "title": "React.Children.map",
+          "nav": {
+            "path": "/basic",
+            "title": "Basic"
+          }
+        },
+        "title": "React.Children.map"
       },
       {
         "path": "/state-manage",
