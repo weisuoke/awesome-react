@@ -15,6 +15,10 @@ export default {
   },
   navs: [
     {
+      title: '知识点',
+      path: '/basic'
+    },
+    {
       title: 'UI',
       path: '/ui'
     },
